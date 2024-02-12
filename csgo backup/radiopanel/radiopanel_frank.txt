@@ -1,0 +1,274 @@
+// Radio Panel by AND1
+// Last modification: 2020-03-08
+
+// File location:
+// C:\Program Files (x86)\Steam\SteamApps\common\Counter-Strike Global Offensive\csgo\resource\ui
+
+"RadioPanel.txt"
+{
+
+//"SFUI_StandardRadio"
+//"SFUI_GroupRadio"	
+//"SFUI_ReportRadio"	
+	"Groups"
+	{
+		"common"
+		{
+			"hotkey"	"0"	// bind h "radio"
+			"title"	"#SFUI_CommonRadio"
+			"timeout"	"5"
+
+			"Commands"
+			{
+				"roger"
+				{
+					"hotkey"	"1"
+					"label"	"#SFUI_Radio_Roger"
+					"cmd"	"roger"
+				}
+				
+				"negative"
+				{
+					"hotkey"	"2"
+					"label"	"#SFUI_Radio_Negative"
+					"cmd"	"negative"
+				}
+							
+				"holdpos"
+				{
+					"hotkey"	"3"
+					"label"	"#SFUI_Radio_Hold_Pos"
+					"cmd"	"holdpos"
+				}
+
+				"thanks"
+				{
+					"hotkey"	"4"
+					"label"	"#SFUI_Radio_Thanks"
+					"cmd"	"thanks"
+				}
+				
+				"cheer"
+				{
+					"hotkey"	"5"
+					"label"	"#SFUI_Radio_Cheer"
+					"cmd"	"cheer"
+				}
+
+				"compliment"
+				{
+					"hotkey"	"6"
+					"label"	"#SFUI_Radio_Compliment"
+					"cmd"	"compliment"
+				}
+
+				"sorry"
+				{
+					"hotkey"	"7"
+					"label"	"Sorry!"
+					"cmd"	"sorry"
+				}
+
+				"needrop"
+				{
+					"hotkey"	"8"
+					"label"	"Need a drop"
+					"cmd"	"needrop"
+				}
+
+			}
+		}
+
+		"standard"
+		{
+			"hotkey"	"1" // bind i "radio1"
+			"title"	"Quick Chat Menu" // #SFUI_CommandRadio
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"suckit"
+				{
+					"hotkey"	"1"
+					"label"	"say ( ◕ヮ◕) Ɑ͞ ̶͞ ̶͞ ﻝﮞ"
+					"cmd"	"say ( ◕ヮ◕) Ɑ͞ ̶͞ ̶͞ ﻝﮞ"
+				}
+
+				"idk"
+				{
+					"hotkey"	"2"
+					"label"	"say ¯\\_(ツ)_/¯"
+					"cmd"	"say ¯\_(ツ)_/¯"
+				}
+
+				"cool"
+				{
+					"hotkey"	"3"
+					"label"	"say (⌐■_■)⌐╦╦═─ - - -"
+					"cmd"	"say (⌐■_■)⌐╦╦═─ - - -"
+				}
+
+				"sentate"
+				{
+					"hotkey"	"4"
+					"label"	"say Sentate ┬──┬ ノ( ゜-゜ノ)"
+					"cmd"	"say Sentate ┬──┬ ノ( ゜-゜ノ)"
+				}
+
+				"table"
+				{
+					"hotkey"	"5"
+					"label"	"say (╯°□°）╯︵ ┻━┻"
+					"cmd"	"say (╯°□°）╯︵ ┻━┻"
+				}
+
+				"ns"
+				{
+					"hotkey"	"6"
+					"label"	"say (☞ ◕_◕)☞ Nice shot"
+					"cmd"	"say (☞ ◕_◕)☞ Nice shot"
+				}
+
+				"nsdisca"
+				{
+					"hotkey"	"7"
+					"label"	"say Nice sh♿t!"
+					"cmd"	"say Nice sh♿t!"
+				}
+
+				"cutit"
+				{
+					"hotkey"	"8"
+					"label"	"say ( ＾◡＾)っ✂╰⋃╯"
+					"cmd"	"say ( ＾◡＾)っ✂╰⋃╯"
+				}
+
+				"fuckyou"
+				{
+					"hotkey"	"9"
+					"label"	"say ( ͡⚆ ͜ʖ ͡⚆)╭∩╮"
+					"cmd"	"say ( ͡⚆ ͜ʖ ͡⚆)╭∩╮"
+				}
+			}
+		}
+		
+		"group"
+		{
+			"hotkey"	"2" // bind o "radio2"
+			"title"	"Bot Commands Menu"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"botaddct"
+				{
+					"hotkey"	"1"
+					"label"	"Add Bot (CT)"
+					"cmd"	"bot_add_ct; snd_playsounds Buttons.snd14"
+				}
+
+				"botaddt"
+				{
+					"hotkey"	"2"
+					"label"	"Add Bot (T)"
+					"cmd"	"bot_add_t; snd_playsounds Buttons.snd14"
+				}
+
+				"botcrouchon"
+				{
+					"hotkey"	"3"
+					"label"	"Bot Crouch (ON)"
+					"cmd"	"bot_crouch 1; snd_playsounds Buttons.snd14"
+				}
+				
+				"botcrouchoff"
+				{
+					"hotkey"	"4"
+					"label"	"Bot Crouch (OFF)"
+					"cmd"	"bot_crouch 0; snd_playsounds Buttons.snd14"
+				}
+
+				"botmimicon"
+				{
+					"hotkey"	"5"
+					"label"	"Bot Mimic (ON)"
+					"cmd"	"bot_mimic_yaw_offset 0; bot_mimic 1; snd_playsounds Buttons.snd14"
+				}
+				
+				"botmimicoff"
+				{
+					"hotkey"	"6"
+					"label"	"Bot Mimic (OFF)"
+					"cmd"	"bot_mimic_yaw_offset 0; bot_mimic 0; snd_playsounds Buttons.snd14"
+				}
+
+				"botkill"
+				{
+					"hotkey"	"7"
+					"label"	"Kill All Bots"
+					"cmd"	"bot_kill; snd_playsounds Buttons.snd14"
+				}
+				
+				"botkick"
+				{
+					"hotkey"	"8"
+					"label"	"Kick All Bots"
+					"cmd"	"bot_kick; snd_playsounds Buttons.snd14"
+				}	
+				
+			}
+		}
+		
+		"report"
+		{
+			"hotkey"	"3" // bind p "radio3"
+			"title"	"Offline Practice Menu"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"restart"
+				{
+					"hotkey"	"1"
+					"label"	"Restart Game"
+					"cmd"	"mp_restartgame 1"
+				}
+
+				"rethrow"
+				{
+					"hotkey"	"2"
+					"label"	"Rethrow Last Grenade"
+					"cmd"	"sv_rethrow_last_grenade"
+				}
+
+				"fullalltalk"
+				{
+					"hotkey"	"3"
+					"label"	"Full All Talk"
+					"cmd"	"sv_alltalk 1; sv_full_alltalk 1; sv_deadtalk 1; sv_talk_enemy_living 1; sv_talk_enemy_dead 1; snd_playsounds Buttons.snd14"
+				}
+				
+				"normalalltalk"
+				{
+					"hotkey"	"4"
+					"label"	"Normal All Talk"
+					"cmd"	"sv_alltalk 0; sv_full_alltalk 0; sv_deadtalk 1; sv_talk_enemy_living 0; sv_talk_enemy_dead 0; snd_playsounds Buttons.snd14"
+				}
+				
+				"wallhackon"
+				{
+					"hotkey"	"5"
+					"label"	"Wallhack ON"
+					"cmd"	"r_drawothermodels 2; snd_playsounds Buttons.snd14"
+				}
+
+				"wallhackoff"
+				{
+					"hotkey"	"6"
+					"label"	"Wallhack OFF"
+					"cmd"	"r_drawothermodels 1; snd_playsounds Buttons.snd14"
+				}
+			}
+		}
+	}
+}
