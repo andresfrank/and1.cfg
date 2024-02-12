@@ -66,6 +66,6 @@ This is useful for adding auditory feedback to your commands, for example: `togg
 **Full list of CS2 Sounds**
 
 As of 2024-02-12, there are 18.880 files and 244 folders, weighing 4.17GB.
-I've listed the entire file structure (names only) here: [./cs2_sounds.txt](./misc/cs2_sounds.txt)
+I've listed the entire file structure (names only) here: [./cs2_sounds.txt](./cs2_sounds.txt)
 
 If you want the actual audio files, you could try to use the same tool to extract and decompile the `.vsnd_c` files into `.mp3` or other format.
